@@ -62,6 +62,9 @@
 		<Version nr="406">
 			<CreateDate>2017-11-29</CreateDate>
 		</Version>
+		<Version nr="407">
+			<CreateDate>2018-02-04</CreateDate>
+		</Version>
 		<Hooks>
             <Hook id="19">agws_secupay_flex_hooks19.php</Hook>
 			<Hook id="140">agws_secupay_flex_hooks140.php</Hook>
@@ -144,7 +147,7 @@
 				<Sort>4</Sort>
 				<SendMail>1</SendMail>
 				<Provider>secupay.ag</Provider>
-				<TSCode>OTHER</TSCode>
+				<TSCode>CREDIT_CARD</TSCode>
 				<PreOrder>1</PreOrder>
 				<Soap>0</Soap>
 				<Curl>1</Curl>
@@ -165,7 +168,7 @@
 				<Sort>5</Sort>
 				<SendMail>1</SendMail>
 				<Provider>secupay.ag</Provider>
-				<TSCode>OTHER</TSCode>
+				<TSCode>DIRECT_DEBIT</TSCode>
 				<PreOrder>1</PreOrder>
 				<Soap>0</Soap>
 				<Curl>1</Curl>
@@ -186,7 +189,7 @@
 				<Sort>5</Sort>
 				<SendMail>1</SendMail>
 				<Provider>secupay.ag</Provider>
-				<TSCode>OTHER</TSCode>
+				<TSCode>INVOICE</TSCode>
 				<PreOrder>1</PreOrder>
 				<Soap>0</Soap>
 				<Curl>1</Curl>
