@@ -59,6 +59,9 @@
 		<Version nr="405">
 			<CreateDate>2017-09-25</CreateDate>
 		</Version>
+		<Version nr="406">
+			<CreateDate>2017-11-29</CreateDate>
+		</Version>
 		<Hooks>
             <Hook id="19">agws_secupay_flex_hooks19.php</Hook>
 			<Hook id="140">agws_secupay_flex_hooks140.php</Hook>
