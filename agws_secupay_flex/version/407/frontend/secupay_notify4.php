@@ -129,9 +129,11 @@ if (strlen($cSh) > 0) {
 
         $paymentMethod = PaymentMethod::create($order->Zahlungsart->cModulId);
         $paymentMethod->handleNotification($order, '_' . $sessionHash, $_REQUEST);
-        if ($paymentMethod->redirectOnPaymentSuccess() === true) {
-            header('Location: ' . $paymentMethod->getReturnURL($order));
-            exit();
+        if(!empty($paymentMethod)) {
+            if ($paymentMethod->redirectOnPaymentSuccess() === true) {
+                header('Location: ' . $paymentMethod->getReturnURL($order));
+                exit();
+            }
         }
     }
 
